@@ -24,3 +24,23 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)  //converts isLoggedIn to bool
 console.log(booleanIsLoggedIn);
 //""->false
 // "hitesh"->true
+
+
+//****************************** Operations **********************/
+
+let value=3
+let negValue=-value
+console.log(negValue)
+
+console.log(2^3)   // bitwise XOR operator
+console.log(2**3) // 2to the power 3
+
+console.log("1" + 2)       // 12
+console.log(1+ "2");       // 12
+console.log("1" + 2 + 2);  // 122
+console.log(1 + 2 + "2");  // 32
+
+console.log(true);     // true
+console.log(+true);    //1    not recommended
+console.log(+"")       //0    not recommended
+
