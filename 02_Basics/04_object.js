@@ -50,3 +50,31 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // returns true
+console.log("\n");  // to change line  `` can also be used
+
+
+//destructuring an object
+const course ={
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor:"hitesh"
+}
+// course.courseInstructor
+const{courseInstructor : instructor} = course //changes the courseInstructor name to instructor
+console.log(instructor);
+
+// *********************** API ****************************
+
+//  api in form of obj
+// {                         // use to call api through json
+//     name: "hitesh",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+
+// [                          //api in the form of array
+//     {},
+//     {},
+//     {}
+// ]
