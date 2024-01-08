@@ -1,8 +1,11 @@
 // singleton 
 // Object.create    //constructor method known as singleton 
 
-// object literals 
 
+
+
+
+// object literals 
 const mySym = Symbol("key1")
 
 const JsUser={
