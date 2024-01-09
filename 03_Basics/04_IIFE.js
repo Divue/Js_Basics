@@ -14,4 +14,4 @@
 ( (name) =>{
     //unnamed IIFE
     console.log(`db conneced ${name} `);
-})('hitesh');      // ; is needed to end 
+})('Divue');     // ; is needed to end 
