@@ -1,8 +1,8 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){
-//     console.log(val);
-// } )
+coding.forEach( function (val){
+    console.log(val);
+} )
 
 // coding.forEach( (item) => {
 //     console.log(item);
@@ -14,13 +14,13 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach(printMe)
 
-// coding.forEach( (item, index, arr)=> {
+// coding.forEach( (item, index, arr)=> {   //types of parameter in for each loop
 //     console.log(item, index, arr);
 // } )
 
 const myCoding = [
     {
-        languageName: "javascript",
+        languageName: "javascript", 
         languageFileName: "js"
     },
     {
