@@ -33,7 +33,7 @@ buttons.forEach(function(button) {
 ```
 
 ## project 2
-```
+``` javascript
 const form = document.querySelector('form');
 // this usecase will give you empty
 // const height = parseInt(document.querySelector('#height').value)
@@ -58,7 +58,7 @@ form.addEventListener('submit', function (e) {
 ```
 
 ## project 3
-```
+```javascript
 const clock = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
 
@@ -72,8 +72,7 @@ setInterval(function () {
 ```
 
 ## project 4
-```
-
+```javascript
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
 const submit = document.querySelector('#subt');
@@ -166,11 +165,10 @@ function newGame() {
   });
 }
 
-
 ```
 
 ## project 5
-```
+```javascript
 const insert = document.getElementById('insert');
 
 window.addEventListener('keydown', (e) => {
@@ -197,7 +195,7 @@ window.addEventListener('keydown', (e) => {
 ```
 
 ## project 6
-```
+```javascript
 //generate a random color
 
 const randomColor = function () {
